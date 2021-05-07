@@ -6,7 +6,8 @@
            <li>Tabla saberpro_2013</li>
            <li>Tabla saberpro_2014</li>           
       </ul>
-      Entregable Base de datos SABERPRO-2011-2014<br><br>
+      Entregable Base de datos SABERPRO-2011-2014
+      
 2.   Exploracion de datos e integracion
      <ul>
            <li>Verificación de atributos iguales</li>
@@ -16,7 +17,7 @@
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>          
       </ul>
-      Entregable Tabla saberpro_2011_2014<br><br>
+      Entregable Tabla saberpro_2011_2014
 
     
 
@@ -28,7 +29,7 @@
            <li>Calculo de estaditicas para las variables categoricas</li>           
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>          
-       </ul>
+       </ul>       
       Entregable Tabla saberpro_2011_2014
    
 
