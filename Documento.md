@@ -6,7 +6,7 @@
            <li>Tabla saberpro_2013</li>
            <li>Tabla saberpro_2014</li>           
       </ul>
-      Entregable Tabla SABERPRO-2011-2014<br>
+      Entregable Base de datos SABERPRO-2011-2014<br><br>
 2.   Exploracion de datos e integracion
      <ul>
            <li>Verificación de atributos iguales</li>
