@@ -18,7 +18,6 @@
       </ul>
       Entregable Tabla saberpro_2011_2014
 
-> Aquí algo de código de ejemplo:
     
 
   <li>Eliminacion datos atipicos por medio del metodo de Pearson</li>
