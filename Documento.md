@@ -6,7 +6,7 @@
            <li>Tabla saberpro_2013</li>
            <li>Tabla saberpro_2014</li>           
       </ul><br>
-2.   Exploracion de datos
+2.   Exploracion de datos e integracion
      <ul>
            <li>Verificación de atributos iguales</li>
            <li>Verificación de atributos distintos</li>
@@ -14,7 +14,9 @@
            <li>Calculo de estaditicas para las variables categoricas</li>           
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>
+           <li>Entregable Tabla saberpro_2011_2014 </li>
       </ul>
+      Entregable Tabla saberpro_2011_2014
 
 > Aquí algo de código de ejemplo:
     
