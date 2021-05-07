@@ -2,8 +2,9 @@
 ## Limpieza de datos
 <ol>
 <li>Exploracion de datos</li>
-<li>Eliminacion de columnas con relevancia nula para la investigacion</li>
-<li>Eliminacion de datos NaN</li>
+<li>Verificación de atributos iguales</li>
+<li>Verificación de atributos distintos</li>
+<li>Verificación de datos distintos por atrubuto</li>
 <li>calculo de estaditicas para las variables categoricas</li>
 <li>Eliminacion datos atipicos por medio del metodo de Pearson</li>
 <li>Graficas de frecuencia para variables categoricas </li>
