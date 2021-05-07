@@ -16,11 +16,20 @@
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>          
       </ul>
-      Entregable Tabla saberpro_2011_2014
+      Entregable Tabla saberpro_2011_2014<br><br>
 
     
 
   3.   Limpieza de datos
+        <ul>
+           <li>Verificación de atributos iguales</li>
+           <li>Verificación de atributos distintos</li>
+           <li>Verificación de datos distintos por atrubuto</li>
+           <li>Calculo de estaditicas para las variables categoricas</li>           
+           <li>Graficas de frecuencia para variables categoricas </li>
+           <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>          
+       </ul>
+      Entregable Tabla saberpro_2011_2014
    
 
 
