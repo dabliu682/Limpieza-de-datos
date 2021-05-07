@@ -41,7 +41,7 @@
            <li>Creacion de dimension dim_pruebas</li>  
            <li>Creacion de la tabla de Hechos fact_saberpro</li>
            <li>Creacion de relaciones deacuerdo al modelo tipo estrella</li>
-       </ul>       
+        </ul>       
 >      Entregable Tabla saberpro_limpio
    
 
