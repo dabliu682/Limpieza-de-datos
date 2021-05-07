@@ -1,23 +1,9 @@
-# Trabajo de grado
-  Estructura base de datos
-    <ol>
-      <li>Base de datos SABERPRO-2011-2014</li>      
-        <ul>
-          <li>Tabla SABERPRO_2011</li>
-          <li>Tabla SABERPRO_2012</li>
-          <li>Tabla SABERPRO_2013</li>
-          <li>Tabla SABERPRO_2014</li>     
-        </ul>
-    </ol>    
-     <ol>
-      <li>Exploracion de datos</li>      
-        <ul>
-          <li>Tabla SABERPRO_2011</li>
-          <li>Tabla SABERPRO_2012</li>
-          <li>Tabla SABERPRO_2013</li>
-          <li>Tabla SABERPRO_2014</li>     
-        </ul>
-    </ol>
+ ## Este es un encabezado.
+>
+> 1.    Este es el primer _item_ de la lista.
+> 2.    Este es el segundo _item_ de la lista.
+>
+> Aquí algo de código de ejemplo:
     
 
   Limpieza de datos 
