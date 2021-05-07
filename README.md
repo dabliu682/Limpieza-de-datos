@@ -1,6 +1,5 @@
 # Trabajo de grado
-  ## Estructura base de datos
- 
+  Estructura base de datos
     <ul>
       <li>Exploracion de datos</li>
       <li>Verificación de atributos iguales</li>
@@ -12,8 +11,7 @@
       <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>
     </ul>
 
-  ## Limpieza de datos
- 
+  Limpieza de datos 
     <ul>
       <li>Exploracion de datos</li>
       <li>Verificación de atributos iguales</li>
@@ -26,9 +24,7 @@
     </ul>
     
     <ul>
-<li>Pájaro</li>
-<li>Magia</li>
-</ul>
+
  
 
 
