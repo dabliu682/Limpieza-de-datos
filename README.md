@@ -24,6 +24,11 @@
       <li>Graficas de frecuencia para variables categoricas </li>
       <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>
     </ul>
+    
+    <ul>
+<li>Pájaro</li>
+<li>Magia</li>
+</ul>
  
 
 
