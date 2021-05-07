@@ -21,9 +21,9 @@
 
   3.   Limpieza de datos
         <ul>
-           <li>Verificación de atributos iguales</li>
-           <li>Verificación de atributos distintos</li>
-           <li>Verificación de datos distintos por atrubuto</li>
+           <li>Reemplazar datos nulos por moda o media</li>
+           <li>Reemplazar datos atipicos</li>
+           <li>Estandarización de datos distintos por atrubuto</li>
            <li>Calculo de estaditicas para las variables categoricas</li>           
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>          
