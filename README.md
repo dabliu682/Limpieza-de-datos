@@ -1,6 +1,13 @@
  ## Trabajo de grado
 1.    Estructura de la base de datos
       <ul>
+           <li>Tabla saberpro_2011</li>
+           <li>Tabla saberpro_2012</li>
+           <li>Tabla saberpro_2013</li>
+           <li>Tabla saberpro_2014</li>           
+      </ul>
+2.   Exploracion de datos
+     <ul>
            <li>Exploracion de datos</li>
            <li>Verificación de atributos iguales</li>
            <li>Verificación de atributos distintos</li>
@@ -10,7 +17,6 @@
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>
       </ul>
-2.   Exploracion de datos.
 
 > Aquí algo de código de ejemplo:
     
