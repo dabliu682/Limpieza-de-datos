@@ -1,4 +1,5 @@
-# Limpieza-de-datos
+# Trabajo de grado
+## Limpieza de datos
 1 Exploracion de datos
 2 Eliminacion de columnas con relevancia nula para la investigacion
 3 Eliminacion de datos NaN
