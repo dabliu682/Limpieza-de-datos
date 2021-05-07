@@ -1,5 +1,10 @@
 # Trabajo de grado
 ## Limpieza de datos
+<ol>
+<li>Pájaro</li>
+<li>Zorro</li>
+<li>Pez</li>
+</ol>
 1 Exploracion de datos<br>
 2 Eliminacion de columnas con relevancia nula para la investigacion
 3 Eliminacion de datos NaN
