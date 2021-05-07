@@ -42,7 +42,7 @@
            <li>Creacion de la tabla de Hechos fact_saberpro</li>
            <li>Creacion de relaciones de acuerdo al modelo tipo estrella</li>
         </ul>       
->      Entregables: Tabla dim_estudiante, Tabla dim_programas, Tabla dim_instituciones, Tabla dim_tiempo, Tabla dim_lugares, Tabla dim_pruebas, Tabla fact_saberpro y modelo tipo estrella
+>      Entregables: Tabla dim_estudiante, Tabla dim_programas, Tabla dim_instituciones, Tabla dim_tiempo, Tabla dim_lugares, <br> Tabla dim_pruebas, Tabla fact_saberpro y modelo tipo estrella
    
 
 
