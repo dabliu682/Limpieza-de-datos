@@ -16,8 +16,7 @@
            <li>Calculo de estaditicas para las variables categoricas</li>           
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>          
-      </ul>
-      
+      </ul>      
       Entregable Tabla saberpro_2011_2014    
 
   3.   Limpieza de datos
@@ -29,7 +28,7 @@
            <li>Graficas de frecuencia para variables categoricas </li>
            <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>          
        </ul>       
-      Entregable Tabla saberpro_2011_2014
+>      Entregable Tabla saberpro_2011_2014
    
 
 
