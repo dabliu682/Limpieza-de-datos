@@ -1,8 +1,8 @@
 # Trabajo de grado
   Estructura base de datos
-    <ul>
-      <li>BASE DE DATOS SABERPRO-2011-2014</li>      
-    </ul>
+    <ol>
+      <li>Base de datos SABERPRO-2011-2014</li>      
+    </ol>
     <ul>
       <li>Tabla SABERPRO_2011</li>
       <li>Tabla SABERPRO_2012</li>
