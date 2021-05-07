@@ -1,8 +1,7 @@
- ## Este es un encabezado.
->
-> 1.    Este es el primer _item_ de la lista.
-> 2.    Este es el segundo _item_ de la lista.
->
+ ## Trabajo de grado
+1.    Este es el primer _item_ de la lista.
+2.    Este es el segundo _item_ de la lista.
+
 > Aquí algo de código de ejemplo:
     
 
