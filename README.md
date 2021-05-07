@@ -1,6 +1,6 @@
 # Trabajo de grado
   ##Estructura base de datos
-  <li>
+ 
     <ol>
       <li>Exploracion de datos</li>
       <li>Verificación de atributos iguales</li>
@@ -11,9 +11,9 @@
       <li>Graficas de frecuencia para variables categoricas </li>
       <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>
     </ol>
-  </li>
+
   ##Limpieza de datos
-  <li>
+ 
     <ol>
       <li>Exploracion de datos</li>
       <li>Verificación de atributos iguales</li>
@@ -24,7 +24,7 @@
       <li>Graficas de frecuencia para variables categoricas </li>
       <li>Graficas de campanas de Gauss para descubrir el comportaminento de los datos en este caso comprobar si tenen una distribucion normal </li>
     </ol>
-  </li>
+ 
 
 
 
