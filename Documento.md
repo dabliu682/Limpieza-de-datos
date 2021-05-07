@@ -20,7 +20,7 @@
 
     
 
-  <li>Eliminacion datos atipicos por medio del metodo de Pearson</li>
+  3.   Limpieza de datos
    
 
 
