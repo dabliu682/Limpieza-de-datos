@@ -32,6 +32,7 @@
 >select column_name from information_schema.columns where table_name='saberpro_2014' except select column_name from information_schema.columns where table_name='saberpro_2011_2014';<br>
 14. Hacer un análisis de los datos de las tablas saberpro_2012, saberpro_2013 y saberpro-2014 para determinar atributos equivalentes, teniendo en cuenta el diccionario de datos de saberpro_20112 (ver anexo RESULTADOS ANALISIS DE DATOS)<br><br>
 15. Insertar en la tabla saberpro_2011_2014 los datos de las tablas saberpro_2012, saberpro_2013 y saberpro_2014, teniendo en cuenta los atributos comunes y equivalentes. 
+    Adicionar datos saberpro_2012
 >INSERT INTO saberpro_2011_2014(
 econ_area_vive,
 econ_material_pisos,
