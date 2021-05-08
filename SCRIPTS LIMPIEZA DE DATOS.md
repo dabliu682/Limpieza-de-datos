@@ -22,3 +22,4 @@ prueba 20142.
 institución inst_cod_institucion
 19. Reemplazar los valores del atributo inst_origen por el código ‘5’ para la "ESCUELA NORMAL SUPERIOR ANTIOQUEÑA con código 4.
 20. Reemplazar los valores numéricos del atributo inst_origen por su descripción de acuerdo a la siguiente tabla:
+![tabla 1](IMAGENES/tabla 1.png)
