@@ -32,7 +32,7 @@
 >select column_name from information_schema.columns where table_name='saberpro_2014' except select column_name from information_schema.columns where table_name='saberpro_2011_2014';<br>
 14. Hacer un análisis de los datos de las tablas saberpro_2012, saberpro_2013 y saberpro-2014 para determinar atributos equivalentes, teniendo en cuenta el diccionario de datos de saberpro_20112 (ver anexo RESULTADOS ANALISIS DE DATOS)<br><br>
 15. Insertar en la tabla saberpro_2011_2014 los datos de las tablas saberpro_2012, saberpro_2013 y saberpro_2014, teniendo en cuenta los atributos comunes y equivalentes.<br><br> 
-    Adicionar datos saberpro_2012
+   a. Adicionar datos saberpro_2012
 >INSERT INTO saberpro_2011_2014(
 econ_area_vive, econ_material_pisos, econ_sn_automovil, econ_sn_celular, econ_sn_computador, econ_sn_horno, econ_sn_internet, econ_sn_lavadora, econ_sn_microondas, econ_sn_nevera, econ_sn_servicio_tv, econ_sn_telefonia, estu_area_conoc, estu_cod_aplicacion, estu_cod_grupo_ref, estu_disc_invidente, estu_disc_motriz, estu_disc_sordo_ceguera, estu_disc_sordo_con_interprete, estu_disc_sordo_sin_interprete, estu_estado_civil, estu_estrato, estu_exam_anno_presentacion, estu_exam_cod, estu_exam_codmpio_presentacion, estu_exam_dpto_presentacion, estu_exam_mpio_presentacion, estu_exam_nombre, estu_genero, estu_grupo_referencia, estu_hogar_actual, estu_horas_trabajo, estu_metodo_prgm, estu_nacimiento_anno, estu_nacimiento_dia, estu_nacimiento_mes, estu_nivel_prgm_academico, estu_nucleo_pregrado, estu_pais_reside, estu_pje_creditos, estu_prgm_academico, estu_reside_codmpio, estu_sn_cabeza_fmlia, estu_sn_matricula_beca, estu_sn_matricula_credito, estu_sn_matricula_padres, estu_sn_matricula_propio, estu_titulo_bto, estu_trabaja,  estu_zona, estuconsecutivo, fami_cod_educa_madre, fami_cod_educa_padre, fami_cod_ocup_madre, fami_cod_ocup_padre, fami_ing_fmliar_mensual, fami_nivel_sisben, fami_num_pers_cargo, fami_num_pers_grup_fam, inst_caracter_academico, inst_cod_institucion, inst_vlr_matricula_ant, mod_comunica_escrita_desem, mod_comunica_escrita_punt, mod_ingles_desem, mod_ingles_punt, mod_lectura_critica, mod_razona_cuantitativo_punt,
 prueba,
@@ -126,7 +126,7 @@ econ_sn_reproductordvd
 FROM
 saberpro_2012;<br>
   
-Adicionar datos saberpro_2013
+b. Adicionar datos saberpro_2013
 
 >INSERT INTO saberpro_2011_2014(
 econ_area_vive,
