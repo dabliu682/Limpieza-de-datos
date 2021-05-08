@@ -31,9 +31,9 @@
 >select column_name from information_schema.columns where table_name='saberpro_2013' except select column_name from information_schema.columns where table_name='saberpro_2011_2014';<br>
 >select column_name from information_schema.columns where table_name='saberpro_2014' except select column_name from information_schema.columns where table_name='saberpro_2011_2014';<br>
 14. Hacer un análisis de los datos de las tablas saberpro_2012, saberpro_2013 y saberpro-2014 para determinar atributos equivalentes, teniendo en cuenta el diccionario de datos de saberpro_20112 (ver anexo RESULTADOS ANALISIS DE DATOS)<br><br>
-15. Insertar en la tabla saberpro_2011_2014 los datos de las tablas saberpro_2012, saberpro_2013 y saberpro_2014, teniendo en cuenta los atributos comunes y equivalentes.<br><br> 
-Adicionar datos saberpro_2012
->INSERT INTO saberpro_2011_2014(
+15. Insertar en la tabla saberpro_2011_2014 los datos de las tablas saberpro_2012, saberpro_2013 y saberpro_2014, teniendo en cuenta los atributos comunes y equivalentes.<br>
+* Adicionar datos saberpro_2012
+  >INSERT INTO saberpro_2011_2014(
 econ_area_vive, econ_material_pisos, econ_sn_automovil, econ_sn_celular, econ_sn_computador, econ_sn_horno, econ_sn_internet, econ_sn_lavadora, econ_sn_microondas, econ_sn_nevera, econ_sn_servicio_tv, econ_sn_telefonia, estu_area_conoc, estu_cod_aplicacion, estu_cod_grupo_ref, estu_disc_invidente, estu_disc_motriz, estu_disc_sordo_ceguera, estu_disc_sordo_con_interprete, estu_disc_sordo_sin_interprete, estu_estado_civil, estu_estrato, estu_exam_anno_presentacion, estu_exam_cod, estu_exam_codmpio_presentacion, estu_exam_dpto_presentacion, estu_exam_mpio_presentacion, estu_exam_nombre, estu_genero, estu_grupo_referencia, estu_hogar_actual, estu_horas_trabajo, estu_metodo_prgm, estu_nacimiento_anno, estu_nacimiento_dia, estu_nacimiento_mes, estu_nivel_prgm_academico, estu_nucleo_pregrado, estu_pais_reside, estu_pje_creditos, estu_prgm_academico, estu_reside_codmpio, estu_sn_cabeza_fmlia, estu_sn_matricula_beca, estu_sn_matricula_credito, estu_sn_matricula_padres, estu_sn_matricula_propio, estu_titulo_bto, estu_trabaja,  estu_zona, estuconsecutivo, fami_cod_educa_madre, fami_cod_educa_padre, fami_cod_ocup_madre, fami_cod_ocup_padre, fami_ing_fmliar_mensual, fami_nivel_sisben, fami_num_pers_cargo, fami_num_pers_grup_fam, inst_caracter_academico, inst_cod_institucion, inst_vlr_matricula_ant, mod_comunica_escrita_desem, mod_comunica_escrita_punt, mod_ingles_desem, mod_ingles_punt, mod_lectura_critica, mod_razona_cuantitativo_punt,
 prueba,
 mod_comp_ciudadanas_punt,
@@ -126,9 +126,9 @@ econ_sn_reproductordvd
 FROM
 saberpro_2012;<br>
   
-Adicionar datos saberpro_2013
+* Adicionar datos saberpro_2013
 
->INSERT INTO saberpro_2011_2014(
+  >INSERT INTO saberpro_2011_2014(
 econ_area_vive,
 econ_material_pisos,
 econ_sn_automovil,
@@ -288,7 +288,144 @@ econ_sn_reproductordvd
 FROM
 saberpro_2013;
 
-* Un item de las litas con un blockquote:
+* Adicionar datos saberpro_2014
+  >INSERT INTO saberpro_2011_2014(
+estu_pje_creditos,
+estu_estrato,
+estu_disc_sordo_ceguera,
+fami_cod_educa_padre,
+econ_sn_microondas,
+estu_disc_sordo_con_interprete,
+econ_sn_servicio_tv,
+estu_nacimiento_mes,
+estu_disc_sordo_sin_interprete,
+inst_cod_institucion,
+estu_estado_civil,
+econ_sn_internet,
+estu_nacimiento_dia,
+estu_sn_cabeza_fmlia,
+fami_num_pers_cargo,
+econ_material_pisos,
+econ_sn_telefonia,
+econ_sn_computador,
+econ_sn_celular,
+estu_exam_codmpio_presentacion,
+estu_titulo_bto,
+prueba,
+econ_sn_lavadora,
+fami_cod_ocup_padre,
+estu_disc_invidente,
+estu_reside_codmpio,
+fami_cod_educa_madre,
+estu_sn_matricula_beca,
+econ_sn_automovil,
+econ_sn_horno,
+fami_nivel_sisben,
+estu_nacimiento_anno,
+estu_sn_matricula_credito,
+fami_ing_fmliar_mensual,
+econ_sn_nevera,
+estu_cod_aplicacion,
+estu_exam_anno_presentacion,
+estu_horas_trabajo,
+estu_exam_mpio_presentacion,
+estu_trabaja,
+estu_sn_matricula_padres,
+estu_genero,
+estu_disc_motriz,
+inst_vlr_matricula_ant,
+estu_sn_matricula_propio,
+estu_hogar_actual,
+fami_num_pers_grup_fam,
+fami_cod_ocup_madre,
+mod_ingles_desem,
+mod_ingles_punt,
+mod_comunica_escrita_desem,
+mod_comunica_escrita_punt,
+mod_lectura_critica,
+mod_razona_cuantitativo_punt,
+mod_comp_ciudadanas_punt,
+inst_nombre_institucion,
+inst_origen,
+inst_caracter_academico,
+infa_dormitorios,
+estuconsecutivo,
+estu_semestre_cursa,
+estu_prgm_academico,
+estu_prac_id_prgrm_academico,
+estu_grupo_referencia,
+estu_exam_semestre_pretacion,
+estu_exam_dpto_presentacion,
+econ_sn_dvd
+)
+SELECT
+estu_pje_creditos,
+estu_estrato,
+estu_disc_sordo_ceguera,
+fami_cod_educa_padre,
+econ_sn_microondas,
+estu_disc_sordo_con_interprete,
+econ_sn_servicio_tv,
+estu_nacimiento_mes,
+estu_disc_sordo_sin_interprete,
+inst_cod_institucion,
+estu_estado_civil,
+econ_sn_internet,
+estu_nacimiento_dia,
+estu_sn_cabeza_fmlia,
+fami_num_pers_cargo,
+econ_material_pisos,
+econ_sn_telefonia,
+econ_sn_computador,
+econ_sn_celular,
+estu_exam_codmpio_presentacion,
+estu_titulo_bto,
+prueba,
+econ_sn_lavadora,
+fami_cod_ocup_padre,
+estu_disc_invidente,
+estu_reside_codmpio,
+fami_cod_educa_madre,
+estu_sn_matricula_beca,
+econ_sn_automovil,
+econ_sn_horno,
+fami_nivel_sisben,
+estu_nacimiento_anno,
+estu_sn_matricula_credito,
+fami_ing_fmliar_mensual,
+econ_sn_nevera,
+estu_cod_aplicacion,
+estu_exam_anno_presentacion,
+estu_horas_trabajo,
+estu_exam_mpio_presentacion,
+estu_trabaja,
+estu_sn_matricula_padres,
+estu_genero,
+estu_disc_motriz,
+inst_vlr_matricula_ant,
+estu_sn_matricula_propio,
+estu_hogar_actual,
+fami_num_pers_grup_fam,
+fami_cod_ocup_madre,
+capr_desempeno_ingl,
+capr_puntaje_ingl,
+capr_desempeno_comu,
+capr_puntaje_comu,
+capr_puntaje_lect,
+capr_puntaje_razo,
+capr_puntaje_comp,
+inst_nombreinstitucion,
+inst_sector,
+inst_caracteracademico,
+estu_dormitorios,
+estu_consecutivo,
+estu_semestre_cursando,
+prac_nombre,
+inst_prac_consecutivosnies,
+grre_nombre,
+estu_semestre_cursando,
+estu_exam_dept_presentacion,
+econ_sn_reproductordvd
+FROM
+saberpro_2014;
 
-    > Este es un blockquote
-    > dentro del item de una lista.
