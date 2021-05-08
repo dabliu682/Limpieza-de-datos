@@ -26,14 +26,10 @@
 >select column_name from information_schema.columns where table_name='saberpro_2011_2014' intersect select column_name from information_schema.columns where table_name='saberpro_2012';<br>
 >select column_name from information_schema.columns where table_name='saberpro_2011_2014' intersect select column_name from information_schema.columns where table_name='saberpro_2013';<br>
 >select column_name from information_schema.columns where table_name='saberpro_2011_2014' intersect select column_name from information_schema.columns where table_name='saberpro_2014';<br>
-13. Comparar los esquemas de las tablas saberpro_2012, saberpro_2013, 
-saberpro_2014 para determinar los atributos diferentes de estas tablas con respecto 
-a saberpro_2011_2014:select column_name from information_schema.columns where 
-table_name='saberpro_2012'
-except
-select column_name from information_schema.columns where 
-table_name='saberpro_2011_2014'
-De igual manera con las otras tablas.
+13. Comparar los esquemas de las tablas saberpro_2012, saberpro_2013, saberpro_2014 para determinar los atributos diferentes de estas tablas con respecto a saberpro_2011_2014:
+>select column_name from information_schema.columns where table_name='saberpro_2012' except select column_name from information_schema.columns where table_name='saberpro_2011_2014';<br>
+>select column_name from information_schema.columns where table_name='saberpro_2013' except select column_name from information_schema.columns where table_name='saberpro_2011_2014';<br>
+>select column_name from information_schema.columns where table_name='saberpro_2014' except select column_name from information_schema.columns where table_name='saberpro_2011_2014';<br>
 14. Hacer un análisis de los datos de las tablas saberpro_2012, saberpro_2013 y 
 saberpro-2014 para determinar atributos equivalentes, teniendo en cuenta el 
 diccionario de datos de saberpro_20112 (diccionario inicial)
