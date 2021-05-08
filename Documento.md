@@ -31,7 +31,7 @@
        </ul>       
 >      Entregable Tabla saberpro_limpio
    
-   4.   Modelado Multidimencional
+   4.   Modelado Multidimensional
         <ul>
            <li>Creacion de dimension dim_estudiante</li>
            <li>Creacion de dimension dim_programas</li>
