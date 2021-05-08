@@ -1,4 +1,3 @@
- ## Trabajo de grado
 1.    Estructura de la base de datos
       <ul>
            <li>Tabla saberpro_2011</li>
