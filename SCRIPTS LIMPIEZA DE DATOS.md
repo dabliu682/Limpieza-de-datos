@@ -22,15 +22,10 @@
 >select column_name from information_schema.columns where table_name='saberpro_2012'; <br>
 >select column_name from information_schema.columns where table_name='saberpro_2013'; <br>
 >select column_name from information_schema.columns where table_name='saberpro_2014'
-12. Comparar los esquemas de las tablas saberpro_2012, saberpro_2013, 
-saberpro_2014 para determinar los atributos comunes entre las tablas con respecto a 
-saberpro_2011_2014:
-select column_name from information_schema.columns where 
-table_name='saberpro_2011_2014'
-intersect
-select column_name from information_schema.columns where 
-table_name='saberpro_2012'
-De igual manera con las otras tablas.
+12. Comparar los esquemas de las tablas saberpro_2012, saberpro_2013, saberpro_2014 para determinar los atributos comunes entre las tablas con respecto a saberpro_2011_2014:
+>select column_name from information_schema.columns where table_name='saberpro_2011_2014' intersect select column_name from information_schema.columns where table_name='saberpro_2012';<br>
+>select column_name from information_schema.columns where table_name='saberpro_2011_2014' intersect select column_name from information_schema.columns where table_name='saberpro_2013';<br>
+>select column_name from information_schema.columns where table_name='saberpro_2011_2014' intersect select column_name from information_schema.columns where table_name='saberpro_2014';<br>
 13. Comparar los esquemas de las tablas saberpro_2012, saberpro_2013, 
 saberpro_2014 para determinar los atributos diferentes de estas tablas con respecto 
 a saberpro_2011_2014:select column_name from information_schema.columns where 
