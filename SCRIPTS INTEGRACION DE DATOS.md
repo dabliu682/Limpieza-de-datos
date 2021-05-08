@@ -287,3 +287,8 @@ estu_exam_semestre_presentacion,
 econ_sn_reproductordvd
 FROM
 saberpro_2013;
+
+* Un item de las litas con un blockquote:
+
+    > Este es un blockquote
+    > dentro del item de una lista.
