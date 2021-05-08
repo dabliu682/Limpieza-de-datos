@@ -19,8 +19,8 @@
 >update saberpro_2014 set estu_cod_aplicacion =’EK’ || prueba;
 11. Visualizar los esquemas de las tablas con el fin de obtener los atributos comunes:
 >select column_name from information_schema.columns where table_name='saberpro_2011_2014'; <br>
->select column_name from information_schema.columns where table_name='saberpro_2012'
->select column_name from information_schema.columns where table_name='saberpro_2013'
+>select column_name from information_schema.columns where table_name='saberpro_2012'; <br>
+>select column_name from information_schema.columns where table_name='saberpro_2013'; <br>
 >select column_name from information_schema.columns where table_name='saberpro_2014'
 12. Comparar los esquemas de las tablas saberpro_2012, saberpro_2013, 
 saberpro_2014 para determinar los atributos comunes entre las tablas con respecto a 
